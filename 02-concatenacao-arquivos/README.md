@@ -8,6 +8,13 @@
     npm install grunt-contrib-clean --save-dev
 
 * Rodando tasks
+    grunt
     grunt clean
     grunt copyy
     grunt clean copy
+
+* Concatenando arquivos
+    npm install grunt-contrib-concat --save-dev
+    npm install grunt-contrib-uglify --save-dev
+    npm install grunt-contrib-cssmin --save-dev
+    npm install grunt-usemin --save-dev
