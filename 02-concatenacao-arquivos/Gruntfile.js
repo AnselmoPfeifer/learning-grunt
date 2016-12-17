@@ -25,17 +25,17 @@ module.exports = function(grunt) {
 		}
 
 	});
+
 	//registrando task
 	grunt.registerTask('dist', ['clean', 'copy']);
-	grunt.registerTask('default', ['dist', 'minifica']);
-
 	grunt.registerTask('minifica', ['useminPrepare',
 		'concat', 'uglify', 'cssmin', 'usemin']);
 
-	// carregando tasks
+	// Task default
+	grunt.registerTask('default', ['dist', 'minifica']);
+
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-clean');
-
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
