@@ -25,3 +25,8 @@
 * Versionamento através do Grunt
     npm install grunt-rev --save-dev
 
+* Pre processadores
+    npm install grunt-contrib-coffee
+    npm install grunt-contrib-less  --save-dev
+    npm install grunt-contrib-watch --save-dev
+

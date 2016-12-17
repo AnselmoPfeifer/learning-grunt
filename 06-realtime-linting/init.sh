@@ -12,3 +12,9 @@ npm install grunt-usemin --save-dev
 npm install grunt-contrib-imagemin --save-dev
 
 npm install grunt-rev --save-dev
+
+npm install grunt-contrib-coffee
+npm install grunt-contrib-less  --save-dev
+npm install grunt-contrib-watch --save-dev
+
+npm install grunt-contrib-jshint --save-dev
