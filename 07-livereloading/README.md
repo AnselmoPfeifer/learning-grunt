@@ -30,3 +30,8 @@
     npm install grunt-contrib-less  --save-dev
     npm install grunt-contrib-watch --save-dev
 
+* Livereloading
+    npm install grunt-browser-sync --save-dev
+    http://localhost:3001/sync-options
+    http://localhost:3000
+
